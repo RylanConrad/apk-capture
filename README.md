@@ -32,7 +32,7 @@ aws configure
 - Paste in the vendors public key
 ``` HCL
 variable "transfer_public_key" {
-    description = "transferuser password"
+    description = "transferuser public key"
     type = string 
     default = "<PASTE_VENDORS_KEY_HERE>"
 }
