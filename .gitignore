@@ -1,0 +1,10 @@
+# misc
+*.env
+.en.*
+!.env.example
+
+# Terraform folder
+terraform/.terraform/*
+terraform/terraform.tfstate*
+terraform/.terraform.lock.hcl
+terraform/variables.tf

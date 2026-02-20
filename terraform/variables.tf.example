@@ -1,0 +1,11 @@
+variable "aws-region" {
+    description = "aws-region used for instance"
+    type = string 
+    default = "us-east-1"
+}
+
+variable "transfer_public_key" {
+    description = "vendor public key"
+    type = string 
+    default = "<INSERT_PUBLIC_KEY_HERE"
+}
