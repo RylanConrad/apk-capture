@@ -2,8 +2,9 @@
 This is a guide on how to setup a secure cloud-based SFTP transfer server.
 It uses EC2 attached to an elastic Public IP, then stores the files in a standard S3 bucket.
 
-### Setup - Install Terraform, Connect to AWS
+## Setup - Install Terraform, Connect to AWS
 - [Terraform install guide](https://github.com/PureLogicIT/103-terraform/tree/main/00-install-terraform)
+- AWS CLI setup
 - ``` bash
   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
   unzip awscliv2.zip
