@@ -27,6 +27,11 @@ aws configure
   aws sts get-caller-identity
   ```
 
+## Clone Repo
+- ``` bash 
+      git clone https://github.com/RylanConrad/apk-capture.git
+  ```
+
 ## Paste in public key
 - Navigate to apk-capture/terraform/variables.tf
 - Paste in the vendors public key
