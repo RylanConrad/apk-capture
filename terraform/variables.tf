@@ -5,7 +5,7 @@ variable "aws-region" {
 }
 
 variable "transfer_public_key" {
-    description = "vendor public key"
+    description = "transferuser password"
     type = string 
-    default = "<INSERT_PUBLIC_KEY_HERE"
+    default = "<PASTE_VENDORS_KEY_HERE>"
 }
