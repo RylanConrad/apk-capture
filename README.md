@@ -46,8 +46,8 @@ variable "transfer_public_key" {
 ## Start Resources
 ``` bash
 cd apk-capture/terraform
-# See the infrastructure plan
-terraform plan
+# Install the necessary terraform providers
+terraform init
 # Build for real
 terraform apply
 ```
